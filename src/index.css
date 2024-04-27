@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fccfa6; 
+}
+
+/* Center container and set max width */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Margin for headings */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Margin for forms */
+form {
+  margin-bottom: 20px;
+}
+
+/* Styling for text inputs, number inputs, and buttons */
+input[type="text"],
+input[type="number"],
+button {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Add margin bottom to create space between fields */
+}
+
+/* Add margin bottom for image path input */
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin bottom to create space between fields */
+}
+
+/* Remove default list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for list items */
+li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #0056b3;
+}
